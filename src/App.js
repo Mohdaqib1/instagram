@@ -44,6 +44,7 @@ function aqib(email,password){
     "name": email,
     "price": password
   })
+  //main
   .then(res => {
     console.log(res);
     console.log(res.data);
